@@ -63,6 +63,4 @@ public class MultiThreading {
             throw new RuntimeException(e);
         }
     }
-
-
 }

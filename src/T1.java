@@ -30,5 +30,4 @@ public class T1 extends Thread{
     public void terminateThread() {
         terminate = true;
     }
-
 }
