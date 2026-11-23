@@ -48,7 +48,6 @@ public class MultiThreading {
 
         // 11. Stop thread from class T2
         t2Runnable.terminateThread();
-
     }
 
     /**
