@@ -18,47 +18,47 @@ When the program executes:
 
 
 Both threads will once per seconds print:
-Thread T1: Tråd 1  
-Thread T2: Tråd 2
+class T1: Thread 1  
+class T2: Thread 2
 
 
 The results may vary in the details, but generally it should produce the following:  
 ````
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 2
-Tråd 1
-Tråd 1
-Tråd 2
-Tråd 2
-Tråd 1
-Tråd 1
-Tråd 2
-Tråd 2
-Tråd 2
-Tråd 2
-Tråd 2
-Tråd 2
+Thread 1
+Thread 1
+Thread 1
+Thread 1
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 1
+Thread 1
+Thread 1
+Thread 1
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 1
+Thread 2
+Thread 2
+Thread 2
+Thread 2
+Thread 2
 ````
 
 

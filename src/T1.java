@@ -15,7 +15,7 @@ public class T1 extends Thread{
     @Override
     public void run() {
         while(!terminate) {
-            System.out.println("Tråd 1");
+            System.out.println("Thread 1");
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
